@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ReactNode } from "react";
-import Sidebar from "../../components/sidebar";
 
 const Layout = async ({children}: {children: ReactNode}) => { 
 
