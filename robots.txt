@@ -1,0 +1,18 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://1tamilmv-ai-movie.vercel.app/sitemap.xml
+
+# Disallow admin and private routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /dashboard/
+
+# Allow movie pages and reviews
+Allow: /movies/
+Allow: /reviews/
+Allow: /categories/
+Allow: /search/ 
