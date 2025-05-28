@@ -15,14 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://your-domain.com'),
   title: {
-    default: 'FlixFlix - Movies & Reviews',
-    template: '%s | FlixFlix'
+    default: 'FlimFlix - Movies & Reviews',
+    template: '%s | FlimFlix'
   },
-  description: 'Discover and download movies, read reviews, and stay updated with the latest releases on FlixFlix.',
+  description: 'Discover and download movies, read reviews, and stay updated with the latest releases on FlimFlix.',
   keywords: ['movies', 'movie reviews', 'film downloads', 'movie streaming', 'film reviews', 'movie information'],
-  authors: [{ name: 'FlixFlix Team' }],
-  creator: 'FlixFlix',
-  publisher: 'FlixFlix',
+  authors: [{ name: 'FlimFlix Team' }],
+  creator: 'FlimFlix',
+  publisher: 'FlimFlix',
   formatDetection: {
     email: false,
     address: false,
@@ -32,22 +32,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: '/',
-    siteName: 'FlixFlix',
-    title: 'FlixFlix - Movies & Reviews',
-    description: 'Discover and download movies, read reviews, and stay updated with the latest releases on FlixFlix.',
+    siteName: 'FlimFlix',
+    title: 'FlimFlix - Movies & Reviews',
+    description: 'Discover and download movies, read reviews, and stay updated with the latest releases on FlimFlix.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'FlixFlix - Movies & Reviews',
+        alt: 'FlimFlix - Movies & Reviews',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FlixFlix - Movies & Reviews',
-    description: 'Discover and download movies, read reviews, and stay updated with the latest releases on FlixFlix.',
+    title: 'FlimFlix - Movies & Reviews',
+    description: 'Discover and download movies, read reviews, and stay updated with the latest releases on FlimFlix.',
     images: ['/og-image.jpg'],
     creator: '@flixflix',
   },
